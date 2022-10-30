@@ -20,7 +20,6 @@ function App() {
   // accss the theme and colorMode that created in theme.js
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
-
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
